@@ -248,6 +248,13 @@ input {
   .col-2 {
       margin: 1.5rem 0;
   }
+  .column-right h2,
+  #tip-amout,
+  #total-amount {
+      color: var(--Strong-cyan);
+      font-size: 1.5rem;
+      font-weight: 700;
+  }
 
   
 
