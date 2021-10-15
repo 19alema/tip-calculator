@@ -4,6 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
     text-transform: capitalize;
+    /* border: 2px solid red; */
+    /* overflow-y: hidden; */
 }
 
 :root {
@@ -208,4 +210,41 @@ input {
     }
 
    
+}
+
+@media (max-width: 350px) {
+    .container {
+       
+        width: 100%;
+        margin-top: 15rem;
+    }
+
+   
+
+    .section {
+        padding: 25px 25px;
+    }
+
+    .percent {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .percent-wrapper
+    ,.bill-wrapper {
+        overflow: visible;
+        width: 100%
+    }
+
+    input {
+        width: 20%
+    }
+
+  .column-right {
+      width: 100%;
+  }
+
+  
+
+    
 }

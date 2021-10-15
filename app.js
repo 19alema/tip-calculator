@@ -1,5 +1,5 @@
 const bill = document.getElementById('bill');
-const tipPercent = document.querySelectorAll("#value");
+const tipPercent = document.querySelectorAll(".value");
 const numberOfPeople = document.getElementById('number-input');
 
 const tipAmout= document.getElementById('tip-amout');
