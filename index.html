@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <img src="images/logo.svg" alt="" class="logo">
+        <section class="section">
+           <div class="column-left">
+             <div class="wrapper">
+               <h4>bill</h4>
+              <div class="bill-wrapper">
+                <img src="images/icon-dollar.svg">
+                <input type="text" name="bill" id="bill" placeholder="0.00">
+              </div>
+             </div>
+
+           <div class="wrapper">
+             <h4>select tip %</h4>
+              <div name="select" class="percent-wrapper">
+                <h3 class="percent" value = "0.05"><span id="value">5</span>%</h3>
+                <h3 class="percent" value = "0.1"><span id="value">10</span>%</h3>
+                <h3 class="percent" value = "0.15"><span id="value">15</span>%</h3>
+                <h3 class="percent" value = "0.25"><span id="value">25</span>%</h3>
+                <h3 class="percent" value = "0.5"><span id="value">50</span>%</h3>
+                <!-- <h3 class="percent user-input">custom</h3> -->
+                <input type="text" name="" class="percent percentInput" id="user-input" placeholder="Custom">
+              </div>
+           </div>
+
+            <div class="wrapper">
+              <div class="warning">
+                <h4>number of people</h4>
+                <p class="warning-infor"></p>
+              </div>
+              <div class="bill-wrapper input-wrapper">
+                <img src="images/icon-person.svg">
+                <input type="text" name="bill" id="number-input" placeholder="0.00">
+              </div>
+            </div>
+           </div>
+           <div class="column-right">
+             <div class="col-1">
+               <div class="col-tip">
+                 <p class="para-tip">tip amount</p>
+                 <span class="person">/ person</span>
+               </div>
+               <h2>
+                 $ <span id="tip-amout">0.00</span>
+               </h2>
+             </div>
+             <div class="col-2">
+                <div class="col-tip">
+                    <p class="para-tip">total</p>
+                  <span class="person">/ person</span>
+                </div>
+                <h2>
+                  $ <span id="total-amount">0.00</span>
+                </h2>
+             </div>
+
+             <button id="resetbtn" class="btn">Reset</button>
+           </div>
+        </section>
+  </main>
+
+  <!-- Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset -->
+<!--   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="app.js"></script>
+</body>
+</html>
