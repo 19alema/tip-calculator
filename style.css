@@ -216,7 +216,8 @@ input {
     .container {
        
         width: 100%;
-        margin-top: 7rem;
+        margin-top: 10rem;
+        padding: 0 10px;
     }
 
    
