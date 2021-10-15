@@ -197,6 +197,7 @@ input {
 @media(max-width: 700px) {
     .section {
         grid-template-columns: 1fr;
+         padding: 25px 30px;
     }
 
     .container {
@@ -207,6 +208,23 @@ input {
     }
     .percent {
         padding: 1rem;
+    }
+
+   
+
+    .percent {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .percent-wrapper,
+    .bill-wrapper {
+        overflow: visible;
+        width: 100%
+    }
+
+    input {
+        width: 50%;
     }
 
    
@@ -238,7 +256,7 @@ input {
     }
 
     input {
-        width: 40%
+        width: 50%
     }
 
   .column-right {
